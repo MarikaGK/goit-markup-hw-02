@@ -1,0 +1,45 @@
+body {
+  background-color: #ececec;
+  width: 1600px;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
+  color: #757575;
+}
+
+.header-style {
+  background-color: #ececec;
+  height: 80px;
+}
+
+.footer-style {
+  background-color: #2f303a;
+  height: 252px;
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  color: #000000;
+  text-decoration: none;
+  padding-left: 215px;
+}
+
+.logo-blue {
+  color: #2196f3;
+}
+
+.footer-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.footer-logo-blue {
+  color: #2196f3;
+}
