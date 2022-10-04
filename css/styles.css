@@ -1,5 +1,5 @@
 body {
-  background-color: #ececec;
+  background-color: #ffffff;
   width: 1600px;
 }
 
@@ -68,7 +68,7 @@ body {
 
 .nav-list-link {
   text-decoration: none;
-  font-weight: 500px;
+  font-weight: 500;
   font-size: 14px;
   color: var(--bold-color);
   padding-right: 46px;
@@ -81,15 +81,15 @@ body {
 
 .contact-list-header {
   display: flex;
+  text-align: right;
   text-decoration: none;
   list-style-type: none;
-  margin-right: 227px;
   list-style-position: inside;
 }
 
 .contact-list-header-link {
   text-decoration: none;
-  font-weight: 500px;
+  font-weight: 500;
   font-size: 14px;
   color: inherit;
   padding-left: 50px;
@@ -111,7 +111,7 @@ body {
 
 .address-link {
   text-decoration: none;
-  font-weight: 400px;
+  font-weight: 400;
   font-size: 14px;
   line-height: 24px;
   font-style: normal;
@@ -121,7 +121,7 @@ body {
 
 .contact-list-footer-link {
   text-decoration: none;
-  font-weight: 400px;
+  font-weight: 400;
   font-size: 14px;
   line-height: 24px;
   color: #ffffff;
@@ -140,7 +140,7 @@ body {
 
 .intro-h1 {
   text-transform: uppercase;
-  font-weight: 900px;
+  font-weight: 900;
   font-size: 44px;
   line-height: 60px;
   text-align: center;
@@ -153,7 +153,7 @@ body {
   background: var(--highlight);
   color: var(--logo-bright);
   font-size: 16px;
-  font-weight: 700px;
+  font-weight: 700;
   letter-spacing: 0.06em;
   width: 200px;
   height: 50px;
@@ -161,3 +161,64 @@ body {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 }
+
+.section2 {
+  height: 290px;
+  width: 1600px;
+  display: flex;
+  justify-content: center;
+  padding-top: 94px;
+}
+
+.section2-list {
+  display: flex;
+  list-style-type: none;
+}
+
+.section2-list-item {
+  width: 270px;
+  text-align: left;
+  padding: 0 15px 0 15px;
+}
+
+.section2-list-item-header {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  line-height: 16px;
+  color: var(--bold-color);
+}
+
+.section2-list-item-description {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+}
+
+.section3 {
+  height: 480px;
+  width: 1600px;
+  justify-content: center;
+}
+
+.section3-header {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42.19px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: var(--bold-color);
+}
+
+.section3-list {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+
+.section3-list-item {
+  padding: 50px 15px 94px 15px;
+}
+
