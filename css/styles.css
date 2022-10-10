@@ -107,6 +107,11 @@ body {
   list-style-position: inside;
 }
 
+.contact-list-footer a:hover,
+.contact-list-footer a:focus {
+  color: var(--highlight);
+}
+
 .address-link {
   text-decoration: none;
   font-weight: 400;
