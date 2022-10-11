@@ -206,7 +206,6 @@ body {
 .skills {
   height: 480px;
   width: 1600px;
-  justify-content: center;
   padding-top: 0;
   padding-bottom: 94px;
 }
@@ -289,7 +288,6 @@ body {
   padding-top: 95px;
   padding-bottom: 50px;
   padding-left: 215px;
-  justify-content: center;
 }
 
 .buttons {
