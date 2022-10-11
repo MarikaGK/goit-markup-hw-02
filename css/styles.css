@@ -288,6 +288,7 @@ body {
   height: 88px;
   padding-top: 95px;
   padding-bottom: 50px;
+  padding-left: 215px;
   justify-content: center;
 }
 
@@ -327,6 +328,7 @@ body {
   height: 1272px;
   padding-top: 0;
   padding-bottom: 93px;
+  padding-left: 215px;
   align-content: center;
 }
 
@@ -334,6 +336,7 @@ body {
   margin: 0;
   padding: 0;
   display: grid;
+  justify-content: center;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 30px 30px;
   list-style-type: none;
