@@ -86,6 +86,8 @@ body {
   list-style-position: inside;
 }
 
+.contact-list-footer address:hover,
+.contact-list-footer address:focus,
 .contact-list-footer a:hover,
 .contact-list-footer a:focus {
   color: var(--highlight);
