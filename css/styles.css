@@ -49,15 +49,15 @@ body {
   list-style-position: inside;
 }
 
-.nav-list a {
+.nav-list-link {
   text-decoration: none;
   font-weight: 500;
   font-size: 14px;
   color: var(--bold-color);
 }
 
-.nav-list a:hover,
-.nav-list a:focus {
+.nav-list-link:hover,
+.nav-list-link:focus {
   color: var(--highlight);
 }
 
@@ -68,15 +68,15 @@ body {
   list-style-position: inside;
 }
 
-.contact-list-header a {
+.contact-list-header-link {
   text-decoration: none;
   font-weight: 500;
   font-size: 14px;
   color: inherit;
 }
 
-.contact-list-header a:hover,
-.contact-list-header a:focus {
+.contact-list-header-link:hover,
+.contact-list-header-link:focus {
   color: var(--highlight);
 }
 
@@ -86,14 +86,14 @@ body {
   list-style-position: inside;
 }
 
-.contact-list-footer address:hover,
-.contact-list-footer address:focus,
-.contact-list-footer a:hover,
-.contact-list-footer a:focus {
+.contact-list-footer-address:hover,
+.contact-list-footer-address:focus,
+.contact-list-footer-link:hover,
+.contact-list-footer-link:focus {
   color: var(--highlight);
 }
 
-.address-link {
+.contact-list-footer-address {
   text-decoration: none;
   font-weight: 400;
   font-size: 14px;
@@ -101,7 +101,7 @@ body {
   color: #ffffff;
 }
 
-.contact-list-footer a {
+.contact-list-footer-link {
   text-decoration: none;
   font-weight: 400;
   font-size: 14px;
@@ -117,7 +117,7 @@ body {
   background-color: var(--bckgr-dark-color);
 }
 
-.intro h1 {
+.intro-header {
   text-transform: uppercase;
   font-weight: 900;
   font-size: 44px;
@@ -127,7 +127,7 @@ body {
   color: var(--bright);
 }
 
-.intro button {
+.intro-button {
   background: var(--highlight);
   color: var(--bright);
   font-weight: 700;
@@ -153,7 +153,7 @@ body {
   text-align: left;
 }
 
-.lorem-list-item h3 {
+.lorem-list-item-title {
   text-transform: uppercase;
   font-size: 14px;
   font-weight: 700;
@@ -161,7 +161,7 @@ body {
   color: var(--bold-color);
 }
 
-.lorem-list-item p {
+.lorem-list-item-text {
   font-size: 14px;
   line-height: 24px;
 }
@@ -190,7 +190,7 @@ body {
   background-color: var(--bckgr-bright-color);
 }
 
-.team h2 {
+.team-header {
   font-weight: 700;
   font-size: 36px;
   line-height: 42.19px;
@@ -212,17 +212,17 @@ body {
   border-radius: 0px 0px 4px 4px;
 }
 
-.team-list-card figure {
+.team-list-card-picture {
   text-align: center;
 }
 
-.team-list-card h3 {
+.team-list-card-title {
   color: var(--bold-color);
   font-weight: 500;
   line-height: 19px;
 }
 
-.team-list-card p {
+.team-list-card-text {
   line-height: 19px;
 }
 
@@ -237,7 +237,7 @@ body {
   list-style-position: inside;
 }
 
-.buttons button {
+.buttons-button {
   color: var(--bold-color);
   font-weight: 500;
   line-height: 26px;
@@ -249,8 +249,8 @@ body {
   border: 0;
 }
 
-.buttons button:focus,
-.buttons button:hover {
+.buttons-button:focus,
+.buttons-button:hover {
   background-color: var(--highlight);
   color: var(--bright);
   font-weight: 500;
@@ -271,17 +271,17 @@ body {
   border: 1px solid #eeeeee;
 }
 
-.result-card figure {
+.result-card-picture {
   text-align: left;
 }
 
-.result-card h3 {
+.result-card-title {
   color: var(--bold-color);
   font-weight: 500;
   line-height: 36px;
   letter-spacing: 00.06em;
 }
 
-.result-card p {
+.result-card-text {
   line-height: 30px;
 }
